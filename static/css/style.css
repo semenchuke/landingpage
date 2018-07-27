@@ -1,0 +1,408 @@
+*{
+	padding: 0px;
+	margin:0px;	
+}
+
+body{
+	background: url(/static/img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 1355px auto;
+	background-position: 50% 0%
+	/*background-attachment: fixed;*/
+}
+
+								/*свойство блока intro и всех в него входящих блоков, блок №1*/
+
+.intro{
+	background: url(/static/img/introback.jpg);
+	background-size: 100%;
+	margin: 127px auto 0 auto;
+	width: 1050px;
+	height: 612px;
+	color: #eaeaea;
+}
+
+.logo{
+	margin-left: 57px;
+	margin-right: 480px;
+	padding-top: 10px;
+	float: left;
+}
+
+.header ul li{
+	display: inline-block;
+	list-style: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 44px;
+	font-variant: small-caps;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header ul li a{
+	text-decoration: none;
+	color: #eaeaea;
+}
+
+.introtext{
+	margin-top: 130px;
+	text-align: center;
+}
+
+.introtext img{
+	width: 227.5px;
+	margin-top: 15px;
+}
+
+.t1{
+	font-family: 'Cookie';
+	font-size: 75pt;
+	font-style: italic;
+	color: white;
+	margin-bottom: 0;
+}
+
+.t2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 28pt;
+	color: white;
+	font-variant: small-caps;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+
+								/*свойство блока story и всех в него входящих блоков. ,блок №2*/
+
+.story{
+	background: url(/static/img/story.jpg);
+	margin: 0 auto;
+	width: 1050px;
+	height: 422px;
+}
+
+
+.food img{
+	height: 274px;
+	margin-top: 74px;
+	margin-right: 74px;
+	float: right;
+}
+
+.t3{
+	text-align: center;
+	display: inline-block;
+	margin-left: 74px;
+	margin-top: 74px;
+}
+
+.t3 #lineStory1{
+	font-family: 'Cookie';
+	font-style: italic;
+	color: #0d121c;
+	font-size: 40pt;
+}
+
+.t3 #lineStory2{
+	font-family: 'Roboto', sans-serif;
+	color: #b69b55;
+	font-size: 23pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-top: -25px;
+	display: inline-block;
+}
+
+.t3 #lineStory3{
+	font-family: 'Roboto', sans-serif;
+	color: #c7c4b4;
+	font-size: 20pt;
+}
+
+
+											/*свойство блока recipse и всех в него входящих блоков. ,блок №3*/
+.recipse{
+	background: url(/static/img/recipse.jpg);
+	margin: 0 auto;
+	width: 1050px;
+	height: 565px;
+	text-align: center;
+}
+
+.t4{
+	display: inline-block;
+	width: 520px;
+	height: 300px;
+	color: white;
+	text-align: center;
+	margin-top: 160px;
+	margin-left: 25px;
+}
+
+#lineR1{
+	font-family: 'Cookie';
+	font-style: italic;
+	color: white;
+	font-size: 55pt;
+}
+
+#lineR2{
+	font-family:'Roboto', sans-serif;
+	color: white;
+	font-size: 20pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	display: inline-block;
+	margin-top: -20px;	
+}
+
+#lineR3{
+	font-family: 'Roboto', sans-serif;
+	color: #c7c4b4;
+	font-size: 20pt;
+	display: inline-block;
+	margin-top: -20px;	
+}
+
+#lineR4{
+	display: inline-block;
+	width: 360px;
+	color: #e4e3e1;
+}
+
+
+
+											/*свойство блока foodmenu и всех в него входящих блоков. ,блок №4*/
+
+.foodmenu{
+	background: url(/static/img/foodmenu.jpg);
+	margin: 0 auto;
+	width: 1050px;
+	height: 515px;
+	text-align: center;
+}
+
+.t5{
+	text-align: center;
+}
+
+.t5-1{
+	display: inline-block;
+	text-align: center;
+	margin-top: 57px;
+	margin-bottom: 37px;
+}
+
+#lineF1{
+	font-family: 'Cookie';
+	font-style: italic;
+	color: #0d121c;
+	font-size: 40pt;
+}
+
+#lineF2{
+	font-family: 'Roboto', sans-serif;
+	color: #b69b55;
+	font-size: 23pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-top: -25px;
+	display: inline-block;
+}
+
+#lineF3{
+	font-family: 'Roboto', sans-serif;
+	color: #c7c4b4;
+	font-size: 20pt;
+	display: inline-block;
+	margin-top: -20px;
+}
+
+
+.foodmenuL{
+	display: inline-block;
+	float: left;
+	width: 416px;
+	margin-left: 74px;
+	text-align: left;
+}
+
+.foodmenuR{
+	display: inline-block;
+	float: right;
+	width: 416px;
+	text-align: left;
+	margin-right: 49px;
+	/*margin-left: 70px;*/
+}
+
+.boldtext{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: 15pt;
+}
+
+.smalltext{
+	font-size: 10pt;
+}
+
+.numbers{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: 10pt;
+}
+
+.specimage{
+	position: relative;
+	margin-top: -270px;
+	margin-left: -35px;
+}
+
+											/*свойство блока links и всех в него входящих блоков. ,блок №5*/
+.links{
+	background: url(/static/img/links.jpg);
+	margin: 0 auto;
+	width: 1050px;
+	height: 199px;
+	text-align: center;
+}
+
+.square{
+	width: 100px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+.dish1, .dish2, .dish3, .dish4, .dish5{
+	border-bottom: 2px solid rgba(0, 0, 0, 0)
+}
+
+
+.dish1:hover{
+	border-bottom: 2px solid #b69b55;
+}
+.dish2:hover{
+	border-bottom: 2px solid #b69b55;
+}
+.dish3:hover{
+	border-bottom: 2px solid #b69b55;
+}
+.dish4:hover{
+	border-bottom: 2px solid #b69b55;
+}
+.dish5:hover{
+	border-bottom: 2px solid #b69b55;
+}
+
+
+
+											/*свойство блока reservation и всех в него входящих блоков. ,блок №5*/
+
+.reservation{
+	background: url(/static/img/reservation.jpg);
+	margin: 0 auto;
+	width: 1050px;
+	height: 414px;
+}
+
+.food1 img{
+	height: 274px;
+	margin-top: 74px;
+	margin-left: 74px;
+	float: left;
+}
+
+.t3{
+	text-align: center;
+	display: inline-block;
+	margin-left: 74px;
+	margin-top: 74px;
+	overflow: hidden;
+}
+
+.t3 #lineReserv1{
+	font-family: 'Cookie';
+	font-style: italic;
+	color: #0d121c;
+	font-size: 40pt;
+}
+
+.t3 #lineReserv2{
+	font-family: 'Roboto', sans-serif;
+	color: #b69b55;
+	font-size: 23pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-top: -25px;
+	display: inline-block;
+}
+
+.t3 #lineReserv3{
+	font-family: 'Roboto', sans-serif;
+	color: #c7c4b4;
+	font-size: 20pt;
+}
+
+.t3 #lineReserv4{
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 15pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-top: 40px;
+	padding-bottom: 5px;
+	display: inline-block;
+	border-bottom: 3px solid #b69b55;
+	width: 100px;
+}
+
+.t3 #lineReserv4 a{
+	text-decoration: none;
+	color: black;
+}
+
+
+											/*свойство блока footer и всех в него входящих блоков. ,блок №5*/
+
+.footer{
+	background: url(/static/img/footer.jpg);
+	margin: 0 auto 126px auto;
+	width: 1050px;
+	height: 343px;
+	text-align: left;
+}
+
+.footerlinks{
+	display: inline-block;
+	margin-top: 88px;
+	margin-left: 74px;
+	color: #8991a1;
+	font-size: 8pt;
+}
+
+.footerlinks ul li {
+	display: block;
+	margin-bottom: 7px;
+}
+
+.footerlinks ul li a{
+	text-decoration: none;
+	color: #8991a1;
+}
+
+.footerlinks ul li a:hover{
+	color: white;
+}
+
+.end{
+	margin-left: 74px;
+	margin-top: 55px;
+}
+
+
+.intro, .story, .recipse, .foodmenu, .links, .reservation, .footer{
+	box-shadow: 0 10px 25px #050607;
+}
